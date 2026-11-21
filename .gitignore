@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cities: Skylines II saves (too large for GitHub 100 MB limit)
+*.cok
+*.part
+*.tmp
+
+# Secrets & local scraper runtime state
+exporter/reddit_config.json
+exporter/scraper_state.json
+exporter/manual_links.txt
+exporter/export_error/export error.txt

@@ -1,0 +1,382 @@
+﻿city,brand,sector,business_type,prefab,district,building,building_level,employees,max_employees,profitability,worth,rent,x_m,z_m,lat,lon
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,32,33,201,7461,19874,-234.8,-242.2,-0.002176,-0.00211
+Bad City,Treasure Trove Comics,Commercial,Book Store,Commercial_BookStore,Os. Na Stoku,Mixed Old Town,2,4,4,255,103969,46,-1577.6,-2430.8,-0.021836,-0.014172
+Bad City,Wingbacks,Commercial,Electronics Store,Commercial_ElectronicsStore,Przemyślice,Commercial Low,2,5,5,255,161215,925,-734.0,-346.1,-0.003109,-0.006594
+Bad City,Short Market,Commercial,Food Store,Commercial_FoodStore,Dzielnica #3,Commercial Low,3,14,14,255,176698,1751,-884.6,-1629.8,-0.01464,-0.007947
+Bad City,Sixty Sum,Commercial,Food Store,Commercial_FoodStore,Os. Na Stoku,Mixed,1,20,20,127,0,56,-1736.9,-2526.3,-0.022694,-0.015603
+Bad City,Oceanport Pharmaceuticals,Commercial,Drug Store,Commercial_DrugStore,,Commercial Low,2,15,15,255,309174,2156,400.5,-1985.9,-0.01784,0.003598
+Bad City,Limzabar,Commercial,Liquor Store,Commercial_LiquorStore,Dzielnica #1,Commercial Low,3,11,11,220,101215,1281,-529.5,-1732.5,-0.015564,-0.004756
+Bad City,Oceanport Pharmaceuticals,Commercial,Drug Store,Commercial_DrugStore,Bocianek,Mixed Old Town,3,28,28,255,546322,57,-238.8,-2710.1,-0.024345,-0.002145
+Bad City,OHFurniture,Commercial,Furniture Store,Commercial_FurnitureStore,,Mixed Old Town,3,18,18,255,260822,38,252.3,-1516.0,-0.013618,0.002267
+Bad City,Leafy Greens,Commercial,Food Store,Commercial_FoodStore,Os. Na Stoku,Mixed,2,9,9,255,113530,42,-1573.3,-2466.8,-0.022159,-0.014133
+Bad City,Pelican Biofuel,Commercial,Gas Station,Commercial_GasStation,Dzielnica #1,Commercial Gas Station,3,3,3,255,355603,976,-520.5,-1568.5,-0.01409,-0.004676
+Bad City,Oceanport Pharmaceuticals,Commercial,Drug Store,Commercial_DrugStore,Bocianek,Commercial Low,2,3,3,255,160594,485,-342.9,-2569.5,-0.023083,-0.00308
+Bad City,Patback Medical,Commercial,Drug Store,Commercial_DrugStore,Dzielnica #2,Commercial Low,3,29,29,255,716724,4477,-646.8,-1273.5,-0.01144,-0.005811
+Bad City,269,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Dzielnica #3,Commercial Low,3,7,7,61,60995,1155,-778.8,-1796.1,-0.016135,-0.006996
+Bad City,Cheap And Random,Commercial,Fashion Store,Commercial_FashionStore,,Mixed Old Town,3,6,6,213,107001,43,311.1,-1485.5,-0.013344,0.002795
+Bad City,Crazy Colibri,Commercial,Liquor Store,Commercial_LiquorStore,,Mixed Old Town,3,24,24,255,146778,51,182.0,-2042.0,-0.018344,0.001635
+Bad City,269,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,,Mixed Old Town,3,18,18,255,170054,36,359.4,-2099.9,-0.018864,0.003229
+Bad City,Chachi Threads,Commercial,Fashion Store,Commercial_FashionStore,Os. Na Stoku,Mixed,2,9,9,255,93792,42,-1573.2,-2482.8,-0.022303,-0.014132
+Bad City,Pharmacy,Commercial,Drug Store,Commercial_DrugStore,Os. Na Stoku,Commercial Low,1,2,2,255,121324,457,-1402.1,-2561.3,-0.023009,-0.012595
+Bad City,Bumberfuel,Commercial,Gas Station,Commercial_GasStation,Bocianek,Commercial Gas Station,2,1,1,155,115061,805,-234.5,-2682.1,-0.024094,-0.002106
+Bad City,Primeval Petrol,Commercial,Gas Station,Commercial_GasStation,Bocianek,Commercial Gas Station,2,4,4,255,333486,1206,-628.2,-2471.7,-0.022204,-0.005643
+Bad City,Lo Po,Commercial,Gas Station,Commercial_GasStation,Dzielnica #1,Commercial Gas Station,3,9,9,255,616107,2601,-556.5,-1576.7,-0.014164,-0.004999
+Bad City,Patback Medical,Commercial,Drug Store,Commercial_DrugStore,,Commercial Low,2,3,3,255,145324,567,171.2,-1491.3,-0.013396,0.001538
+Bad City,Sixty Sum,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Bocianek,Mixed Left,3,37,37,255,313309,34,-335.2,-2525.5,-0.022687,-0.003011
+Bad City,Neckbeard Mikes Comics,Commercial,Book Store,Commercial_BookStore,Dzielnica #3,Commercial Low,3,33,33,255,467290,10326,-780.1,-1627.3,-0.014619,-0.007008
+Bad City,Kapea,Commercial,Furniture Store,Commercial_FurnitureStore,Bocianek,Commercial Low,2,5,5,1,179525,1208,-254.5,-2681.9,-0.024092,-0.002286
+Bad City,269,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Bocianek,Mixed,3,46,46,255,425066,39,-636.5,-2431.7,-0.021845,-0.005718
+Bad City,Annus Interior Design,Commercial,Furniture Store,Commercial_FurnitureStore,Bocianek,Mixed,3,37,37,255,559643,44,-695.1,-2571.9,-0.023104,-0.006244
+Bad City,Texstailors,Commercial,Fashion Store,Commercial_FashionStore,,Mixed Old Town,3,18,18,154,111775,39,377.5,-2227.4,-0.020009,0.003391
+Bad City,Pilotee,Commercial,Vehicle Store,Commercial_VehicleStore,,Commercial High,1,35,35,255,86659,5826,-1307.2,-2432.8,-0.021854,-0.011743
+Bad City,Crapfish Granules,Commercial,Plastics Store,Commercial_PlasticsStore,Bocianek,Mixed,3,12,12,255,170946,40,-284.4,-2657.5,-0.023873,-0.002555
+Bad City,Nonsense Vintage,Commercial,Fashion Store,Commercial_FashionStore,Bocianek,Mixed,3,12,12,188,127339,52,-787.8,-2404.9,-0.021603,-0.007077
+Bad City,Common Groceries,Commercial,Food Store,Commercial_FoodStore,Os. Na Stoku,Mixed,1,8,8,127,0,65,-1554.1,-2726.1,-0.024489,-0.013961
+Bad City,Allmost Meat,Commercial,Food Store,Commercial_FoodStore,Os. Na Stoku,Commercial Low,1,5,5,255,80612,969,-1362.9,-2473.2,-0.022217,-0.012243
+Bad City,Tiny Toys,Commercial,Plastics Store,Commercial_PlasticsStore,Dzielnica #2,Commercial Low,3,9,9,255,149281,1503,-647.6,-1177.5,-0.010577,-0.005817
+Bad City,Pharmacy,Commercial,Drug Store,Commercial_DrugStore,Os. Na Stoku,Commercial Low,1,8,8,255,116713,1356,-1605.9,-2391.0,-0.021479,-0.014426
+Bad City,Maito,Commercial,Liquor Store,Commercial_LiquorStore,,Mixed Old Town,3,44,44,255,158760,38,290.8,-1478.3,-0.01328,0.002612
+Bad City,Sneaky Ridge,Commercial,Fashion Store,Commercial_FashionStore,Bocianek,Mixed,3,37,37,255,191734,36,-639.1,-2602.0,-0.023374,-0.005741
+Bad City,St Armands Goblet,Commercial,Liquor Store,Commercial_LiquorStore,Dzielnica #2,Commercial Low,3,14,14,219,131796,2254,-647.4,-1197.5,-0.010757,-0.005816
+Bad City,Short Market,Commercial,Food Store,Commercial_FoodStore,,Commercial Low,1,6,6,0,-20081,1506,-1305.8,-2628.8,-0.023615,-0.01173
+Bad City,Kapea,Commercial,Furniture Store,Commercial_FurnitureStore,Os. Na Stoku,Mixed,2,37,37,255,220452,45,-1512.7,-2398.3,-0.021544,-0.013588
+Bad City,Obuwniczy,Commercial,Fashion Store,Commercial_FashionStore,Os. Na Stoku,Mixed,2,14,14,255,100733,46,-1573.7,-2414.8,-0.021692,-0.014137
+Bad City,Primeval Petrol,Commercial,Gas Station,Commercial_GasStation,Bocianek,Commercial Gas Station,2,2,2,255,243981,805,-218.5,-2682.3,-0.024096,-0.001963
+Bad City,Denny Denims,Commercial,Fashion Store,Commercial_FashionStore,Dzielnica #2,Commercial Low,3,37,37,255,281616,6737,-710.8,-1277.9,-0.01148,-0.006385
+Bad City,Maito,Commercial,Liquor Store,Commercial_LiquorStore,Bocianek,Mixed Left,3,24,24,255,175077,49,-744.4,-2476.6,-0.022247,-0.006687
+Bad City,Sixty Sum,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Bocianek,Commercial Low,2,3,3,192,111574,481,-342.8,-2585.5,-0.023226,-0.003079
+Bad City,Sixty Sum,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Os. Na Stoku,Commercial High,1,26,26,255,91937,4704,-1688.4,-2644.7,-0.023758,-0.015167
+Bad City,Maito,Commercial,Liquor Store,Commercial_LiquorStore,Dzielnica #3,Commercial Low,2,7,7,135,92030,1972,-968.9,-1744.4,-0.01567,-0.008704
+Bad City,Turttle Shell,Commercial,Fashion Store,Commercial_FashionStore,Dzielnica #3,Commercial Low,3,4,4,120,105797,770,-778.9,-1776.1,-0.015955,-0.006997
+Bad City,Road Garbage,Commercial,Vehicle Store,Commercial_VehicleStore,Os. Na Stoku,Commercial High,1,8,8,255,111294,1512,-1353.7,-2641.2,-0.023726,-0.01216
+Bad City,Maito,Commercial,Liquor Store,Commercial_LiquorStore,Bocianek,Mixed,3,24,24,255,155281,56,-388.8,-2648.2,-0.023789,-0.003493
+Bad City,Consilio Bombacio,Commercial,Fashion Store,Commercial_FashionStore,,Commercial Low,2,3,3,66,93684,532,155.3,-1491.9,-0.013402,0.001395
+Bad City,269,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Os. Na Stoku,Mixed,2,9,9,255,117426,42,-1611.1,-2501.8,-0.022474,-0.014473
+Bad City,Tiny Toys,Commercial,Plastics Store,Commercial_PlasticsStore,Bocianek,Commercial Low,2,11,11,255,144808,2000,-498.1,-2676.3,-0.024042,-0.004475
+Bad City,Something And All,Commercial,Food Store,Commercial_FoodStore,,Commercial Low,2,5,5,0,121966,798,191.2,-1490.5,-0.013389,0.001718
+Bad City,Cheap And Random,Commercial,Fashion Store,Commercial_FashionStore,Bocianek,Mixed,3,46,46,255,308663,39,-660.5,-2431.9,-0.021846,-0.005934
+Bad City,Nonsense Vintage,Commercial,Fashion Store,Commercial_FashionStore,Os. Na Stoku,Mixed Right,2,37,37,255,121945,45,-1536.6,-2398.5,-0.021546,-0.013804
+Bad City,Leafy Greens,Commercial,Food Store,Commercial_FoodStore,Dzielnica #1,Commercial Low,3,11,11,206,231464,1256,-688.1,-1629.8,-0.01464,-0.006181
+Bad City,Turttle Shell,Commercial,Fashion Store,Commercial_FashionStore,Bocianek,Mixed,3,18,18,255,177683,54,-286.8,-2705.5,-0.024304,-0.002576
+Bad City,St Armands Goblet,Commercial,Liquor Store,Commercial_LiquorStore,Dzielnica #3,Commercial Low,2,7,7,197,90683,1972,-968.5,-1712.4,-0.015383,-0.0087
+Bad City,Greenough Biofuel,Commercial,Gas Station,Commercial_GasStation,Dzielnica #1,Commercial Gas Station,3,5,5,255,546724,1312,-664.1,-1629.6,-0.014639,-0.005965
+Bad City,Spin Off Bakeries,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Dzielnica #2,Commercial Low,3,14,14,255,229265,2695,-711.6,-1177.9,-0.010582,-0.006392
+Bad City,Oceanport Pharmaceuticals,Commercial,Drug Store,Commercial_DrugStore,Bocianek,Mixed,3,24,24,255,420771,48,-502.8,-2636.4,-0.023683,-0.004516
+Bad City,Ordinateur,Commercial,Electronics Store,Commercial_ElectronicsStore,Dzielnica #3,Mixed Old Town,3,18,18,255,358472,51,-963.6,-1466.2,-0.013171,-0.008656
+Bad City,Short Market,Commercial,Food Store,Commercial_FoodStore,,GER Mixed,2,19,19,255,117143,38,-402.1,-1919.6,-0.017244,-0.003613
+Bad City,Maito,Commercial,Liquor Store,Commercial_LiquorStore,Bocianek,Mixed Old Town,3,49,49,255,217353,39,-236.0,-2626.1,-0.023591,-0.00212
+Bad City,Lehto Electronics,Industrial,Electronics Factory,Industrial_ElectronicsFactory,Przemyślice,Industrial Manufacturing,3,31,31,255,1254376,16998,-395.2,-699.4,-0.006283,-0.00355
+Bad City,Oceanport Pharmaceuticals,Industrial,Pharmaceuticals Factory,Industrial_PharmaceuticalsFactory,Przemyślice,Industrial Manufacturing,3,31,31,255,848218,26184,-724.3,-574.0,-0.005156,-0.006506
+Bad City,Bentzel,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,2,12,12,255,295983,11655,-679.4,-165.7,-0.001488,-0.006104
+Bad City,Kapine,Industrial,Electronics Factory,Industrial_ElectronicsFactory,Przemyślice,Industrial Manufacturing,2,25,25,255,677749,9359,-431.8,-123.7,-0.001111,-0.003879
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,23,23,255,238652,7683,-111.6,-669.0,-0.006009,-0.001002
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,23,23,255,238558,17345,-547.1,-720.6,-0.006474,-0.004915
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,29,29,255,277237,15799,-687.8,-633.7,-0.005693,-0.006179
+Bad City,Mason Jar,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,31,31,255,435353,13875,-725.5,-414.0,-0.003719,-0.006517
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,12,12,255,131684,4261,-303.8,-122.7,-0.001103,-0.002729
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,23,23,255,260935,21052,-479.0,-732.1,-0.006577,-0.004303
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,23,23,255,87548,8787,-367.8,-623.2,-0.005599,-0.003304
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,31,31,255,283530,44737,-626.8,-253.2,-0.002275,-0.00563
+Bad City,Pink And Sparkly,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,3,39,39,255,1987014,11820,-371.5,-663.3,-0.005958,-0.003338
+Bad City,Lifebelt Petroleum,Industrial,Oil Refinery,Industrial_OilRefinery,Przemyślice,Industrial Manufacturing,2,31,31,255,506555,11293,-331.1,-202.9,-0.001823,-0.002975
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,7,7,255,108077,2370,-363.1,-723.2,-0.006497,-0.003262
+Bad City,Chipperstein,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,31,31,255,275272,15347,-679.7,-137.7,-0.001237,-0.006105
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,23,23,255,300431,7111,-367.3,-699.2,-0.006281,-0.003299
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,1,7,7,255,16236,4500,-251.5,-670.4,-0.006022,-0.002259
+Bad City,Oceanport Pharmaceuticals,Industrial,Pharmaceuticals Factory,Industrial_PharmaceuticalsFactory,Przemyślice,Industrial Manufacturing,3,15,15,255,471477,8892,-724.5,-550.0,-0.004941,-0.006508
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,39,39,255,420779,21066,-639.9,-629.4,-0.005654,-0.005748
+Bad City,Scandic Baron,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,3,47,47,255,1039174,20760,-725.2,-454.0,-0.004078,-0.006515
+Bad City,Merinus,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,2,31,31,255,757632,26876,-523.4,-172.4,-0.001549,-0.004702
+Bad City,Mason Jar,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,31,31,255,295272,13715,-427.0,-219.7,-0.001974,-0.003836
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,39,39,255,518563,38118,-719.3,-702.0,-0.006306,-0.006461
+Bad City,Waffords,Industrial,Textile From Petrochemicals Factory,Industrial_TextileFromPetrochemicalsFactory,Przemyślice,Industrial Manufacturing,2,31,31,255,268590,10644,-331.4,-170.9,-0.001536,-0.002977
+Bad City,Chipperstein,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,15,15,0,-15673,6326,-291.5,-162.6,-0.001461,-0.002618
+Bad City,Scandic Baron,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,3,11,11,255,393117,6320,-687.6,-661.7,-0.005944,-0.006177
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,15,15,255,158950,5862,-319.8,-626.9,-0.005631,-0.002873
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,47,47,255,525617,26748,-636.3,-573.3,-0.00515,-0.005716
+Bad City,Greenough Biofuel,Industrial,Bio Refinery,Industrial_BioRefinery,Przemyślice,Industrial Manufacturing,3,39,39,255,1360825,28887,-547.4,-688.6,-0.006186,-0.004917
+Bad City,Scandic Baron,Industrial,Electronics Factory,Industrial_ElectronicsFactory,Przemyślice,Industrial Manufacturing,2,15,15,255,481666,13438,-579.2,-196.9,-0.001769,-0.005203
+Bad City,Alkenes Cracking,Industrial,Oil Refinery,Industrial_OilRefinery,Przemyślice,Industrial Manufacturing,3,15,15,255,418296,11563,-547.6,-660.6,-0.005935,-0.004919
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,15,15,255,201404,8106,-435.6,-651.7,-0.005855,-0.003914
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,23,23,255,205392,12489,-519.8,-628.4,-0.005645,-0.00467
+Bad City,Steel Saurus,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,3,15,15,255,501841,5410,-356.2,-571.2,-0.005131,-0.0032
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,19,19,255,124377,10523,-639.4,-693.4,-0.006228,-0.005743
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,29,29,255,337493,15784,-687.4,-689.7,-0.006196,-0.006175
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,23,23,255,315910,12639,-687.1,-725.7,-0.006519,-0.006172
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,12,12,255,135511,5132,-336.3,-571.0,-0.005129,-0.003021
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,9,9,255,67094,4604,-672.4,-41.6,-0.000374,-0.00604
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,31,31,255,300637,13451,-452.3,-571.9,-0.005137,-0.004063
+Bad City,Mason Jar,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,25,25,255,137689,10850,-382.8,-251.3,-0.002258,-0.003438
+Bad City,Wrebomm,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,3,23,23,255,547011,13337,-724.6,-530.0,-0.004761,-0.006509
+Bad City,Grun Kuh,Industrial,Convenience Food From Livestock Factory,Industrial_ConvenienceFoodFromLivestockFactory,Przemyślice,Industrial Manufacturing,3,19,19,255,413308,14454,-599.4,-693.1,-0.006226,-0.005384
+Bad City,Bev Pop,Industrial,Beverage From Vegetables Factory,Industrial_BeverageFromVegetablesFactory,Przemyślice,Industrial Manufacturing,2,31,31,255,252828,34959,-447.0,-731.9,-0.006574,-0.004016
+Bad City,Little Boxes,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,3,11,11,255,233327,10021,-519.3,-692.4,-0.00622,-0.004665
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,31,31,255,270596,26724,-475.3,-700.1,-0.006289,-0.00427
+Bad City,IBeam Steel,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,3,29,29,255,805002,25054,-519.1,-720.4,-0.006472,-0.004663
+Bad City,Scandic Baron,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,2,9,9,255,206910,4604,-672.2,-65.6,-0.000589,-0.006039
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,39,39,255,534953,22229,-724.9,-498.0,-0.004474,-0.006512
+Bad City,Sneaky Ridge,Industrial,Textile From Livestock Factory,Industrial_TextileFromLivestockFactory,Przemyślice,Industrial Manufacturing,2,19,19,255,385009,16126,-583.1,-212.9,-0.001913,-0.005238
+Bad City,Steel Saurus,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,3,18,33,127,0,36134,-599.6,-665.1,-0.005974,-0.005386
+Bad City,Dining Fine,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Commercial Low,2,7,7,255,37301,960,-292.6,-2416.4,-0.021707,-0.002629
+Bad City,Morellos Cookie Dough,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Commercial Low,2,7,7,255,38178,1333,-478.1,-2676.0,-0.024039,-0.004295
+Bad City,Yaxu,Commercial,Bar,Commercial_Bar,Dzielnica #3,Commercial Low,3,37,37,255,292599,10326,-779.8,-1667.3,-0.014978,-0.007005
+Bad City,Damien Bite,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Commercial Low,2,7,7,255,45045,1994,-968.7,-1728.4,-0.015527,-0.008702
+Bad City,Yaxu,Commercial,Bar,Commercial_Bar,Dzielnica #2,Commercial Low,3,14,14,255,147875,1273,-107.7,-1349.4,-0.012122,-0.000967
+Bad City,Dining Fine,Commercial,Restaurant,Commercial_Restaurant,,Commercial Low,2,7,7,255,22026,1340,136.2,-1999.8,-0.017965,0.001224
+Bad City,St Armands Goblet,Commercial,Bar,Commercial_Bar,Bocianek,Commercial Low,2,7,7,255,37774,1338,-590.8,-2637.8,-0.023696,-0.005307
+Bad City,Fresh Pots,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Mixed,3,18,18,255,65100,35,-591.2,-2593.7,-0.023299,-0.005311
+Bad City,Bev Pop,Commercial,Bar,Commercial_Bar,Dzielnica #3,Commercial Low,3,37,37,63,153846,10326,-780.4,-1587.4,-0.014259,-0.007011
+Bad City,Damien Bite,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Commercial Low,2,11,11,255,69462,1440,-370.7,-2593.8,-0.0233,-0.00333
+Bad City,Burned Bean,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Mixed Right,3,37,37,255,249282,48,-482.8,-2636.1,-0.02368,-0.004337
+Bad City,Fries,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town,3,20,20,255,65662,39,315.6,-2307.1,-0.020725,0.002835
+Bad City,Crazy Colibri,Commercial,Bar,Commercial_Bar,Os. Na Stoku,Mixed Old Town,1,8,8,145,1840,58,-1461.5,-2605.9,-0.02341,-0.013129
+Bad City,Limzabar,Commercial,Bar,Commercial_Bar,,Commercial Low,1,4,4,130,314,959,-1305.6,-2648.8,-0.023795,-0.011728
+Bad City,Go Nuts Doughnuts,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Mixed Old Town Right,3,9,9,255,83774,53,-963.7,-1478.2,-0.013279,-0.008657
+Bad City,Fries,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town Left,3,11,11,255,29803,49,350.0,-1660.1,-0.014913,0.003144
+Bad City,St Armands Goblet,Commercial,Bar,Commercial_Bar,Przemyślice,Commercial Low,2,11,11,0,-9181,1851,-725.9,-370.0,-0.003324,-0.00652
+Bad City,Burned Bean,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Mixed,3,37,37,255,253676,40,-791.1,-2508.5,-0.022534,-0.007107
+Bad City,Motens,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town,3,20,20,255,40050,49,340.6,-1600.8,-0.01438,0.003059
+Bad City,IMutci,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Commercial Low,3,7,7,207,32726,1155,-779.1,-1756.1,-0.015776,-0.006999
+Bad City,Dining Fine,Commercial,Restaurant,Commercial_Restaurant,,Mcdonald's,5,34,34,255,51160,2405,-1439.2,-2241.8,-0.020138,-0.012929
+Bad City,Nom Soba Noodle,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Mixed,3,46,46,255,134947,58,-967.5,-1942.1,-0.017446,-0.008691
+Bad City,St Armands Goblet,Commercial,Bar,Commercial_Bar,Bocianek,Mixed,3,18,18,255,145583,51,-218.5,-2498.3,-0.022443,-0.001963
+Bad City,Morellos Cookie Dough,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Commercial High,1,26,26,255,15558,4041,-1673.8,-2395.5,-0.021519,-0.015036
+Bad City,Fresh Pots,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Commercial Low,2,11,11,255,70981,2348,-969.3,-1771.0,-0.015909,-0.008707
+Bad City,Crazy Colibri,Commercial,Bar,Commercial_Bar,Dzielnica #3,Commercial Low,3,29,29,255,297392,3520,-836.2,-1689.4,-0.015176,-0.007512
+Bad City,Morellos Cookie Dough,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #2,Commercial Low,3,11,11,255,68645,953,-156.8,-1266.2,-0.011374,-0.001408
+Bad City,Fries,Commercial,Restaurant,Commercial_Restaurant,Przemyślice,Commercial Low,2,7,7,132,14456,1232,-725.7,-390.0,-0.003504,-0.006519
+Bad City,St Armands Goblet,Commercial,Bar,Commercial_Bar,Dzielnica #3,Mixed,3,74,74,255,560257,38,-886.6,-1419.2,-0.012749,-0.007964
+Bad City,Limzabar,Commercial,Bar,Commercial_Bar,Przemyślice,Commercial Low,2,2,2,87,-16716,617,-734.2,-326.1,-0.002929,-0.006595
+Bad City,Kaagistan,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #2,Commercial Low,3,7,7,255,52258,637,-125.3,-1331.2,-0.011958,-0.001125
+Bad City,IMutci,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town,3,49,49,255,124864,37,123.7,-1695.7,-0.015232,0.001111
+Bad City,Limzabar,Commercial,Bar,Commercial_Bar,Bocianek,Mixed Left,3,37,37,255,309089,41,-487.5,-2494.6,-0.02241,-0.004379
+Bad City,Bev Pop,Commercial,Bar,Commercial_Bar,Dzielnica #3,Commercial Low,2,5,5,215,15351,1137,-778.6,-1820.1,-0.016351,-0.006994
+Bad City,St Armands Goblet,Commercial,Bar,Commercial_Bar,Kampus,Commercial Low,2,4,4,28,-36401,2534,-1242.5,-1343.6,-0.01207,-0.011162
+Bad City,Buccal Mucosa,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Commercial Low,3,14,14,255,119018,1751,-828.5,-1572.5,-0.014126,-0.007442
+Bad City,Burned Bean,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Mixed,3,12,12,255,79786,40,-268.4,-2657.7,-0.023874,-0.002411
+Bad City,Crazy Colibri,Commercial,Bar,Commercial_Bar,Bocianek,Commercial Low,2,7,7,255,45682,1460,-787.5,-2436.9,-0.021891,-0.007075
+Bad City,Burned Bean,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town,3,29,29,255,59045,47,181.2,-1925.7,-0.017299,0.001628
+Bad City,Fatty Bite,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Commercial Low,2,11,11,255,42758,2348,-969.6,-1795.0,-0.016125,-0.00871
+Bad City,Yaxu,Commercial,Bar,Commercial_Bar,Dzielnica #2,Commercial Low,2,15,15,128,-82282,6647,-711.1,-1237.9,-0.011121,-0.006388
+Bad City,Kaagistan,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #1,Mixed,3,18,18,255,78963,44,-600.7,-2055.2,-0.018462,-0.005397
+Bad City,Limzabar,Commercial,Bar,Commercial_Bar,Os. Na Stoku,Commercial High,1,17,17,103,-2462,2694,-1653.8,-2395.4,-0.021518,-0.014857
+Bad City,Buccal Mucosa,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #2,Commercial Low,3,4,4,173,14883,461,-206.6,-1302.0,-0.011696,-0.001856
+Bad City,Damskus Diner,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Mixed,3,12,12,255,45294,38,-261.6,-2449.4,-0.022003,-0.00235
+Bad City,Limzabar,Commercial,Bar,Commercial_Bar,Dzielnica #1,Commercial Low,2,8,8,241,27989,1386,-596.9,-2031.1,-0.018246,-0.005362
+Bad City,Morellos Cookie Dough,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Mixed,3,45,45,255,181388,56,-962.0,-1831.1,-0.016449,-0.008642
+Bad City,Go Nuts Doughnuts,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Mixed Old Town,1,5,5,127,0,60,-1451.1,-2623.0,-0.023563,-0.013035
+Bad City,Burned Bean,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Mixed Old Town,2,9,9,255,20075,39,-1571.4,-2503.6,-0.02249,-0.014116
+Bad City,Motens,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town,3,2,2,131,2351,56,185.1,-2213.5,-0.019885,0.001663
+Bad City,Damien Bite,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Mixed,1,15,15,179,5220,71,-1432.6,-2986.5,-0.026829,-0.01287
+Bad City,Nom Soba Noodle,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Commercial High,1,12,12,127,0,2157,-1353.8,-2621.2,-0.023546,-0.012162
+Bad City,Insta LOD,Office,Software Company,Office_SoftwareCompany,Dzielnica #3,Office Low,3,19,20,255,470023,7747,-957.9,-1334.2,-0.011986,-0.008605
+Bad City,Woven Wool,Commercial,Fashion Store,Commercial_FashionStore,Dzielnica #3,Mixed,3,47,49,255,382858,71,-967.1,-1600.4,-0.014377,-0.008687
+Bad City,Duckytoi,Commercial,Plastics Store,Commercial_PlasticsStore,Os. Na Stoku,Mixed,2,39,39,255,148165,46,-1419.5,-2393.6,-0.021502,-0.012752
+Bad City,Ordinateur,Commercial,Electronics Store,Commercial_ElectronicsStore,Bocianek,Mixed,3,48,49,255,465009,58,-191.2,-2554.6,-0.022949,-0.001718
+Bad City,Short Market,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Dzielnica #3,Mixed,3,36,37,255,328736,72,-968.3,-1692.4,-0.015203,-0.008698
+Bad City,Sixty Sum,Commercial,Food Store,Commercial_FoodStore,,GER Mixed,2,18,19,255,134658,39,-402.0,-1935.6,-0.017388,-0.003612
+Bad City,Hardcopy Bookstore,Commercial,Book Store,Commercial_BookStore,,Mixed Old Town,3,13,14,255,208238,38,349.9,-2316.6,-0.020811,0.003143
+Bad City,Kapea,Commercial,Furniture Store,Commercial_FurnitureStore,Os. Na Stoku,Commercial Low,1,7,8,255,116874,1456,-1362.8,-2493.2,-0.022397,-0.012242
+Bad City,Fatty Bite,Commercial,Convenience Food Store,Commercial_ConvenienceFoodStore,Dzielnica #3,Mixed,3,22,24,255,314938,38,-887.0,-1451.2,-0.013036,-0.007968
+Bad City,Texstailors,Commercial,Fashion Store,Commercial_FashionStore,Dzielnica #2,Commercial Low,3,28,29,255,248079,5390,-711.4,-1201.9,-0.010797,-0.006391
+Bad City,Chemtrail Chemicals,Commercial,Chemical Store,Commercial_ChemicalStore,Dzielnica #3,Mixed,3,46,48,255,314820,57,-962.5,-1871.1,-0.016808,-0.008647
+Bad City,Limzabar,Commercial,Bar,Commercial_Bar,Dzielnica #2,Commercial Low,3,35,37,255,127554,5634,-655.2,-1229.5,-0.011045,-0.005886
+Bad City,Fries,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Commercial Low,1,8,9,255,19640,1405,-1860.5,-2576.9,-0.023149,-0.016713
+Bad City,Crazy Colibri,Commercial,Bar,Commercial_Bar,Dzielnica #2,Commercial Low,3,5,7,255,35142,692,-186.6,-1301.9,-0.011695,-0.001676
+Bad City,Fatty Bite,Commercial,Restaurant,Commercial_Restaurant,Dzielnica #3,Mixed Right,3,36,37,255,369007,38,-887.2,-1471.2,-0.013216,-0.00797
+Bad City,Motens,Commercial,Restaurant,Commercial_Restaurant,,Mixed Old Town,3,47,49,255,145541,37,174.3,-1757.6,-0.015789,0.001565
+Bad City,Go Nuts Doughnuts,Commercial,Restaurant,Commercial_Restaurant,Bocianek,Mixed,3,23,24,255,211950,49,-744.5,-2460.6,-0.022104,-0.006688
+Bad City,Greed And Grief,Commercial,Recreaction Store,Commercial_RecreactionStore,Os. Na Stoku,Commercial High,1,11,12,127,0,3887,-1441.4,-2968.6,-0.026667,-0.012949
+Bad City,Motens,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Commercial High,1,23,24,149,2297,8209,-1506.1,-2842.4,-0.025534,-0.01353
+Bad City,Thoseshows,Commercial,Recreaction Store,Commercial_RecreactionStore,Bocianek,Mixed Right,3,49,49,255,228379,41,-487.2,-2530.6,-0.022733,-0.004377
+Bad City,Silent Sauls Real Estate,Commercial,Recreaction Store,Commercial_RecreactionStore,Bocianek,Mixed Left,3,24,24,255,74327,44,-262.4,-2489.4,-0.022363,-0.002357
+Bad City,Woven Wool,Commercial,Recreaction Store,Commercial_RecreactionStore,,Commercial Low,2,12,12,148,3466,4195,261.7,-2349.3,-0.021104,0.002351
+Bad City,Thoseshows,Commercial,Recreaction Store,Commercial_RecreactionStore,Dzielnica #3,Commercial Low,3,9,9,242,32857,1168,-884.5,-1649.8,-0.01482,-0.007945
+Bad City,Save Money,Commercial,Recreaction Store,Commercial_RecreactionStore,Dzielnica #3,Mixed,3,37,37,255,133617,46,-958.8,-1406.2,-0.012632,-0.008613
+Bad City,Kivivskiy Jewelry,Commercial,Recreaction Store,Commercial_RecreactionStore,Os. Na Stoku,Commercial High,1,38,38,127,0,8702,-1808.3,-2600.5,-0.023361,-0.016245
+Bad City,Burly And Brawny,Commercial,Recreaction Store,Commercial_RecreactionStore,Bocianek,Commercial Low,2,3,3,146,3413,727,-342.6,-2605.5,-0.023406,-0.003078
+Bad City,Barbarshop,Commercial,Recreaction Store,Commercial_RecreactionStore,,Mixed Old Town,3,12,12,255,29374,37,167.3,-1781.9,-0.016007,0.001502
+Bad City,Rawrun Bikes,Commercial,Recreaction Store,Commercial_RecreactionStore,Os. Na Stoku,Commercial High,1,18,18,170,4445,4177,-1812.6,-2568.5,-0.023074,-0.016283
+Bad City,Kino View,Commercial,Recreaction Store,Commercial_RecreactionStore,Bocianek,Commercial Low,2,11,11,242,37761,2148,-807.5,-2437.0,-0.021892,-0.007254
+Bad City,Shinies,Commercial,Recreaction Store,Commercial_RecreactionStore,Os. Na Stoku,Mixed,2,5,5,144,1673,42,-1601.6,-2514.6,-0.022589,-0.014388
+Bad City,Rawrun Bikes,Commercial,Recreaction Store,Commercial_RecreactionStore,Dzielnica #3,Commercial Low,3,14,14,255,54465,4130,-779.6,-1695.3,-0.01523,-0.007003
+Bad City,Outline Real Estate,Commercial,Recreaction Store,Commercial_RecreactionStore,Bocianek,Mixed Old Town,3,18,18,255,66484,57,-218.8,-2710.3,-0.024347,-0.001966
+Bad City,Barbarshop,Commercial,Recreaction Store,Commercial_RecreactionStore,Bocianek,Commercial Low,2,8,8,207,14396,1080,-370.9,-2565.8,-0.023049,-0.003332
+Bad City,Fetch AMovie,Commercial,Recreaction Store,Commercial_RecreactionStore,,Commercial Low,2,7,7,150,4692,1340,135.6,-1983.6,-0.017819,0.001218
+Bad City,Pteropus,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,3,13,13,255,334352,4915,-846.1,-1435.7,-0.012897,-0.007601
+Bad City,Pteropus,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,2,16,16,255,399550,7366,-931.2,-1466.6,-0.013175,-0.008365
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,3,20,20,255,616954,8418,-893.7,-1573.0,-0.01413,-0.008028
+Bad City,Lehto Electronics,Office,Telecom Company,Office_TelecomCompany,Bocianek,Office Low,2,27,27,255,525315,12153,-447.2,-2534.3,-0.022766,-0.004017
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,Dzielnica #1,Office Low,3,10,10,255,248348,3799,-601.1,-2005.1,-0.018012,-0.0054
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,Bocianek,Office Low,2,16,16,255,311543,7287,-531.0,-2601.2,-0.023367,-0.00477
+Bad City,Lehto Electronics,Office,Telecom Company,Office_TelecomCompany,Dzielnica #1,Office Low,3,13,13,255,230219,3663,-462.5,-1720.0,-0.015451,-0.004155
+Bad City,Pteropus,Office,Telecom Company,Office_TelecomCompany,Bocianek,Office Low,2,11,11,255,237377,4621,-527.6,-2530.9,-0.022736,-0.004739
+Bad City,Lehto Electronics,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,3,13,13,255,436492,5996,-882.4,-1921.7,-0.017263,-0.007927
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,Bocianek,Office Low,2,16,16,102,235196,7814,-588.5,-2435.4,-0.021877,-0.005287
+Bad City,Lehto Electronics,Office,Telecom Company,Office_TelecomCompany,Bocianek,Office Low,2,33,33,255,641667,16435,-445.0,-2651.5,-0.023819,-0.003998
+Bad City,PNGMedia,Office,Media Company,Office_MediaCompany,Bocianek,Office Low,2,40,41,255,946398,23494,-540.1,-2459.0,-0.02209,-0.004852
+Bad City,PNGMedia,Office,Media Company,Office_MediaCompany,,Office Low,2,7,8,255,96626,3887,346.4,-2021.6,-0.018161,0.003112
+Bad City,Boot And Bug,Office,Media Company,Office_MediaCompany,Dzielnica #1,Office Low,3,20,20,255,610737,7696,-524.0,-1924.5,-0.017288,-0.004707
+Bad City,Luibo Digital,Office,Software Company,Office_SoftwareCompany,Os. Na Stoku,Office Low,1,12,12,255,75880,6260,-1362.2,-2573.2,-0.023116,-0.012237
+Bad City,Luibo Digital,Office,Software Company,Office_SoftwareCompany,Dzielnica #2,Office Low,3,10,10,255,336408,3291,-226.6,-1302.2,-0.011698,-0.002036
+Bad City,Pihi,Office,Bank,Office_Bank,Dzielnica #3,Office Low,3,13,13,255,396402,5976,-882.5,-1905.7,-0.01712,-0.007928
+Bad City,Bowman Banking,Office,Bank,Office_Bank,Dzielnica #1,Office Low,3,31,31,255,898209,11396,-649.2,-1997.5,-0.017944,-0.005832
+Bad City,PNGMedia,Office,Media Company,Office_MediaCompany,Dzielnica #1,Office Low,3,10,10,255,258965,2787,-467.2,-1624.0,-0.014589,-0.004197
+Bad City,Szoftver,Office,Software Company,Office_SoftwareCompany,Os. Na Stoku,Office Low,1,6,6,127,0,3971,-1435.1,-2585.1,-0.023223,-0.012892
+Bad City,PNGMedia,Office,Media Company,Office_MediaCompany,Dzielnica #1,Office Low,2,34,34,255,422968,13211,-486.7,-2178.9,-0.019573,-0.004372
+Bad City,Lehto Electronics,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,3,6,6,255,122940,2608,-926.0,-1378.7,-0.012385,-0.008319
+Bad City,Speltware,Office,Software Company,Office_SoftwareCompany,Bocianek,Office Low,2,16,16,255,323551,9774,-562.1,-2677.4,-0.024051,-0.00505
+Bad City,Pteropus,Office,Telecom Company,Office_TelecomCompany,Bocianek,Office Low,2,11,11,255,263816,5017,-771.1,-2508.5,-0.022534,-0.006927
+Bad City,Luibo Digital,Office,Software Company,Office_SoftwareCompany,,Office Low,2,11,11,255,189312,7026,187.5,-2077.8,-0.018665,0.001684
+Bad City,Boot And Bug,Office,Software Company,Office_SoftwareCompany,Os. Na Stoku,Office Low,1,5,5,255,25210,2107,-1488.3,-2629.4,-0.02362,-0.013369
+Bad City,Bowman Banking,Office,Bank,Office_Bank,Bocianek,Office Low,2,5,5,255,114390,3574,-771.8,-2404.8,-0.021602,-0.006933
+Bad City,Tech OMat,Office,Software Company,Office_SoftwareCompany,Dzielnica #2,Office Low,3,13,13,255,335643,4047,-136.9,-1218.0,-0.010941,-0.00123
+Bad City,CRIMoore,Office,Bank,Office_Bank,Bocianek,Office Low,2,16,16,255,362561,7526,-827.2,-2472.6,-0.022212,-0.007431
+Bad City,THELaw And Accounting,Office,Bank,Office_Bank,Dzielnica #1,Office Low,3,20,20,255,605488,7729,-573.1,-1788.8,-0.01607,-0.005148
+Bad City,Speltware,Office,Software Company,Office_SoftwareCompany,Dzielnica #3,Office Low,2,5,5,255,129659,2798,-865.2,-1552.6,-0.013948,-0.007773
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,Dzielnica #1,Office Low,3,6,6,255,167370,1858,-447.2,-1623.9,-0.014588,-0.004018
+Bad City,CRIMoore,Office,Software Company,Office_SoftwareCompany,Dzielnica #3,Office Low,2,11,11,255,268344,6273,-958.5,-1386.2,-0.012453,-0.008611
+Bad City,Fixed Traffic,Office,Software Company,Office_SoftwareCompany,,Office Low,2,5,5,255,85001,2311,335.3,-2070.6,-0.0186,0.003012
+Bad City,Speltware,Office,Software Company,Office_SoftwareCompany,Os. Na Stoku,Office Low,1,5,5,255,35019,2106,-1478.1,-2455.0,-0.022053,-0.013278
+Bad City,Sing Tape Records,Office,Media Company,Office_MediaCompany,Dzielnica #3,Office Low,2,5,5,255,115963,3689,-911.8,-1519.8,-0.013653,-0.008191
+Bad City,Pihi,Office,Bank,Office_Bank,Os. Na Stoku,Office Low,1,5,5,255,26825,2157,-1657.8,-2451.5,-0.022022,-0.014892
+Bad City,Fixed Traffic,Office,Software Company,Office_SoftwareCompany,Bocianek,Office Low,2,16,16,255,429270,8038,-731.1,-2516.4,-0.022605,-0.006567
+Bad City,CRIMoore,Office,Bank,Office_Bank,,Office Low,2,16,16,255,252428,7257,330.1,-2094.3,-0.018814,0.002965
+Bad City,Stadelmann And Bardolf,Office,Bank,Office_Bank,,Office Low,2,11,11,255,176877,7026,186.8,-2061.8,-0.018522,0.001678
+Bad City,Banhammer Bank,Office,Bank,Office_Bank,Bocianek,Office Low,2,8,8,255,148599,4887,-586.2,-2669.8,-0.023983,-0.005266
+Bad City,CRIMoore,Office,Bank,Office_Bank,Os. Na Stoku,Office Low,1,5,5,255,34002,2156,-1534.4,-2502.6,-0.022481,-0.013783
+Bad City,Fault Studios,Office,Software Company,Office_SoftwareCompany,Dzielnica #3,Office Low,2,16,16,255,376056,8807,-844.6,-1319.7,-0.011855,-0.007587
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,2,8,8,255,190162,5474,-955.1,-1514.3,-0.013603,-0.00858
+Bad City,Kapine,Office,Telecom Company,Office_TelecomCompany,,Office Low,2,8,8,255,92344,3929,339.4,-2044.6,-0.018367,0.003049
+Bad City,Indie Lizard,Office,Media Company,Office_MediaCompany,,Office Low,2,8,8,255,118516,2883,81.0,-1384.3,-0.012435,0.000728
+Bad City,Banhammer Bank,Office,Bank,Office_Bank,Os. Na Stoku,Office Low,1,12,12,127,0,8882,-1531.4,-2737.3,-0.024589,-0.013757
+Bad City,Mouthwater Press,Office,Media Company,Office_MediaCompany,Os. Na Stoku,Office Low,1,6,6,255,42266,3508,-1573.5,-2446.8,-0.02198,-0.014135
+Bad City,Pihi,Office,Bank,Office_Bank,Os. Na Stoku,Office Low,1,6,6,193,6609,3794,-1483.6,-2580.9,-0.023184,-0.013328
+Bad City,Luibo Digital,Office,Software Company,Office_SoftwareCompany,Os. Na Stoku,Office Low,1,8,8,127,0,5151,-1667.0,-2597.0,-0.023329,-0.014975
+Bad City,Tech OMat,Office,Software Company,Office_SoftwareCompany,Dzielnica #3,Office Low,2,5,5,255,123228,3649,-935.1,-1514.5,-0.013605,-0.0084
+Bad City,Snafu Insurance,Office,Bank,Office_Bank,Os. Na Stoku,Office Low,1,5,5,255,29299,2107,-1497.7,-2616.5,-0.023504,-0.013454
+Bad City,Insta LOD,Office,Software Company,Office_SoftwareCompany,Dzielnica #3,Office Low,2,16,16,255,391915,14731,-960.0,-1672.5,-0.015024,-0.008624
+Bad City,Pihi,Office,Bank,Office_Bank,Dzielnica #1,Office Low,3,10,10,255,327823,3567,-634.2,-1869.4,-0.016793,-0.005697
+Bad City,Chirpy Teck,Office,Software Company,Office_SoftwareCompany,Os. Na Stoku,Office Low,1,12,12,255,92167,7155,-1363.3,-2421.2,-0.02175,-0.012247
+Bad City,Boot And Bug,Office,Software Company,Office_SoftwareCompany,Dzielnica #1,Office Low,3,6,6,255,136545,1829,-495.2,-1632.3,-0.014663,-0.004448
+Bad City,Denny Als Law,Office,Software Company,Office_SoftwareCompany,Dzielnica #1,Office Low,3,13,13,255,366093,5131,-524.2,-1904.5,-0.017109,-0.004709
+Bad City,Boot And Bug,Office,Software Company,Office_SoftwareCompany,Dzielnica #1,Office Low,3,13,13,255,360799,3663,-462.6,-1704.0,-0.015307,-0.004156
+Bad City,Chirpy Teck,Office,Software Company,Office_SoftwareCompany,Bocianek,Office Low,2,16,16,255,258392,10140,-348.4,-2652.7,-0.02383,-0.003129
+Bad City,Pteropus,Office,Telecom Company,Office_TelecomCompany,Dzielnica #3,Office Low,3,6,6,255,156516,3730,-802.4,-1840.3,-0.016532,-0.007209
+Bad City,Ashtrain Records,Office,Media Company,Office_MediaCompany,Os. Na Stoku,Office Low,1,12,12,127,0,6924,-1653.6,-2663.8,-0.023929,-0.014855
+Bad City,Colossal Ore,Extractor,Ore Extractor,Industrial_OreExtractor,,Industrial Ore Hub03 L,1,12,14,255,178734,3270,61.0,40.1,0.00036,0.000548
+Bad City,Dining Fine,Commercial,Restaurant,Commercial_Restaurant,Os. Na Stoku,Commercial Low,1,4,4,127,0,928,-1860.4,-2596.9,-0.023328,-0.016712
+Bad City,Bentzel,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,3,45,49,255,1774535,26332,-639.6,-665.4,-0.005977,-0.005745
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,37,39,255,343997,28908,-599.2,-717.1,-0.006441,-0.005382
+Bad City,IBeam Steel,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,2,32,33,255,607155,19758,-483.4,-176.1,-0.001582,-0.004342
+Bad City,PPMchem,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,2,29,31,255,1031448,17767,-579.4,-172.9,-0.001553,-0.005205
+Bad City,Pilestack,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,3,30,31,0,53887,16652,-475.9,-620.1,-0.00557,-0.004275
+Bad City,Kapea,Industrial,Furniture Factory,Industrial_FurnitureFactory,Przemyślice,Industrial Manufacturing,2,22,23,255,448616,6989,-92.4,-37.1,-0.000333,-0.00083
+Bad City,PPMchem,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,2,31,32,255,939436,14280,-391.8,-123.4,-0.001109,-0.003519
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,41,43,255,290126,18421,-232.3,-50.2,-0.000451,-0.002087
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,30,31,255,236839,10662,-187.1,-201.8,-0.001813,-0.001681
+Bad City,Bentzel,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,2,24,25,255,450319,7853,-135.4,-169.4,-0.001522,-0.001216
+Bad City,Saw Ed,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,35,38,255,272766,14321,-431.3,-179.7,-0.001614,-0.003875
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,36,38,255,238993,12472,-231.4,-170.2,-0.001529,-0.002079
+Bad City,Scandic Baron,Industrial,Electronics Factory,Industrial_ElectronicsFactory,Przemyślice,Industrial Manufacturing,2,23,25,255,480293,8525,-135.1,-201.4,-0.001809,-0.001214
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,28,31,255,103323,29357,-627.0,-221.2,-0.001987,-0.005633
+Bad City,Pelican Biofuel,Industrial,Bio Refinery,Industrial_BioRefinery,Przemyślice,Industrial Manufacturing,2,37,38,255,899285,39657,-678.8,-245.6,-0.002207,-0.006098
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,48,49,255,565292,47647,-719.6,-666.0,-0.005983,-0.006464
+Bad City,PPMchem,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,3,37,38,255,869005,12958,-308.3,-570.8,-0.005127,-0.002769
+Bad City,Sugar Spike,Industrial,Beverage From Vegetables Factory,Industrial_BeverageFromVegetablesFactory,Przemyślice,Industrial Manufacturing,2,29,31,255,186878,14582,-524.0,-92.4,-0.00083,-0.004707
+Bad City,Little Boxes,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,2,37,38,255,522244,31981,-623.3,-181.2,-0.001628,-0.005599
+Bad City,Wroommel,Industrial,Vehicle Factory,Industrial_VehicleFactory,Przemyślice,Industrial Manufacturing,3,38,40,127,0,20383,-540.3,-572.6,-0.005144,-0.004854
+Bad City,Pelican Biofuel,Industrial,Bio Refinery,Industrial_BioRefinery,Przemyślice,Industrial Manufacturing,2,20,22,255,484589,8647,-86.8,-249.1,-0.002237,-0.00078
+Bad City,Grind ARock,Industrial,Concrete Factory,Industrial_ConcreteFactory,Przemyślice,Industrial Manufacturing,2,48,51,255,453258,20431,-704.3,-53.8,-0.000484,-0.006327
+Bad City,Mason Jar,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,37,38,255,333671,12740,-528.3,-52.5,-0.000471,-0.004746
+Bad City,Steel Saurus,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,2,30,31,0,-42007,11648,-92.2,-69.1,-0.000621,-0.000828
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,35,36,255,364762,13525,-384.2,-571.4,-0.005133,-0.003452
+Bad City,Yaxu,Industrial,Beverage From Grain Factory,Industrial_BeverageFromGrainFactory,Przemyślice,Industrial Manufacturing,2,29,31,255,174673,9212,-132.4,-41.4,-0.000372,-0.001189
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,45,47,255,261153,39246,-684.3,-573.7,-0.005154,-0.006147
+Bad City,Patback Medical,Industrial,Pharmaceuticals Factory,Industrial_PharmaceuticalsFactory,Przemyślice,Industrial Manufacturing,2,33,36,255,711362,48234,-582.8,-244.9,-0.0022,-0.005236
+Bad City,Oiliwood,Industrial,Furniture Factory,Industrial_FurnitureFactory,Przemyślice,Industrial Manufacturing,2,44,48,255,899211,32161,-583.8,-116.9,-0.00105,-0.005245
+Bad City,Merinus,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,3,30,31,255,1127736,13451,-420.3,-571.7,-0.005135,-0.003775
+Bad City,Full Of Foods,Industrial,Food Factory,Industrial_FoodFactory,Przemyślice,Industrial Manufacturing,2,30,31,255,610540,15347,-680.0,-97.7,-0.000877,-0.006108
+Bad City,Peacent Planks,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,3,36,39,0,159976,28908,-547.8,-632.6,-0.005683,-0.004921
+Bad City,IBeam Steel,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,3,29,30,255,710243,13451,-443.9,-619.8,-0.005568,-0.003987
+Bad City,Sixty Sum,Industrial,Convenience Food From Fish,Industrial_ConvenienceFoodFromFish,Przemyślice,Industrial Manufacturing,2,29,31,255,302803,9718,-132.1,-73.4,-0.000659,-0.001187
+Bad City,Chipperstein,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,35,38,255,175790,15181,-231.1,-202.2,-0.001816,-0.002076
+Bad City,Full Of Foods,Industrial,Food Factory,Industrial_FoodFactory,Przemyślice,Industrial Manufacturing,2,45,47,255,901103,19110,-488.3,-52.2,-0.000469,-0.004387
+Bad City,Wolmsburys,Industrial,Beverage From Grain Factory,Industrial_BeverageFromGrainFactory,Przemyślice,Industrial Manufacturing,2,51,52,255,387237,19103,-624.3,-53.2,-0.000478,-0.005608
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,26,27,255,114995,9691,-188.0,-89.8,-0.000807,-0.001689
+Bad City,PPMchem,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,3,57,58,255,2454585,17778,-319.6,-658.9,-0.005919,-0.002871
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,47,48,255,382827,21371,-391.3,-179.4,-0.001612,-0.003515
+Bad City,Patback Medical,Industrial,Pharmaceuticals Factory,Industrial_PharmaceuticalsFactory,Przemyślice,Industrial Manufacturing,2,23,24,255,479883,10394,-187.8,-121.8,-0.001094,-0.001687
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,36,38,255,372126,12261,-288.3,-50.6,-0.000455,-0.00259
+Bad City,Chemtrail Chemicals,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,3,28,29,255,1256199,15611,-519.6,-664.4,-0.005969,-0.004667
+Bad City,Teak Stool Co,Industrial,Furniture Factory,Industrial_FurnitureFactory,Przemyślice,Industrial Manufacturing,2,29,31,0,376572,10329,-388.0,-91.4,-0.000821,-0.003486
+Bad City,Allmost Meat,Industrial,Food Factory,Industrial_FoodFactory,Przemyślice,Industrial Manufacturing,2,48,51,255,1059791,23848,-190.8,-241.9,-0.002173,-0.001714
+Bad City,Merinus,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,2,18,19,255,421711,9231,-624.1,-85.2,-0.000766,-0.005606
+Bad City,Stefans Stump,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,17,19,255,123503,6353,-588.4,-44.9,-0.000404,-0.005285
+Bad City,Spasm,Industrial,Electronics Factory,Industrial_ElectronicsFactory,Przemyślice,Industrial Manufacturing,3,43,46,127,0,17778,-319.2,-706.9,-0.00635,-0.002868
+Bad City,Mason Jar,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,2,37,41,255,225882,14378,-188.3,-49.8,-0.000448,-0.001692
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,38,39,255,306817,28887,-599.9,-629.1,-0.005651,-0.005389
+Bad City,Greenough Biofuel,Industrial,Bio Refinery,Industrial_BioRefinery,Przemyślice,Industrial Manufacturing,3,31,32,255,1171285,10378,-194.9,-704.2,-0.006326,-0.001751
+Bad City,Smeltingmore,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,46,47,255,405394,17132,-195.1,-672.2,-0.006039,-0.001753
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,44,47,255,324822,23021,-627.8,-117.2,-0.001053,-0.00564
+Bad City,Chipperstein,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,18,19,255,158510,6140,-232.1,-82.2,-0.000738,-0.002085
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,28,31,255,242854,10234,-292.0,-90.6,-0.000814,-0.002623
+Bad City,Yaxu,Industrial,Beverage From Grain Factory,Industrial_BeverageFromGrainFactory,Przemyślice,Industrial Manufacturing,2,40,41,255,134362,19455,-126.8,-241.4,-0.002168,-0.001139
+Bad City,Cotton Order,Industrial,Textile From Cotton Factory,Industrial_TextileFromCottonFactory,Przemyślice,Industrial Manufacturing,2,48,51,255,637976,18421,-231.8,-114.2,-0.001026,-0.002083
+Bad City,Plasticold,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,2,37,38,255,583820,24565,-294.8,-242.7,-0.00218,-0.002649
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,37,38,255,247573,13537,-334.8,-243.0,-0.002183,-0.003008
+Bad City,Half AGrain,Industrial,Convenience Food From Grain Factory,Industrial_ConvenienceFoodFromGrainFactory,Przemyślice,Industrial Manufacturing,2,36,38,255,555955,16274,-422.8,-251.7,-0.002261,-0.003798
+Bad City,Stefans Stump,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,18,19,255,236222,6392,-283.8,-122.6,-0.001101,-0.002549
+Bad City,Saw Ed,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,29,31,255,212325,15806,-483.8,-124.1,-0.001115,-0.004346
+Bad City,Sixty Sum,Industrial,Convenience Food From Fish,Industrial_ConvenienceFoodFromFish,Przemyślice,Industrial Manufacturing,2,35,38,255,578268,35329,-679.2,-197.6,-0.001776,-0.006101
+Bad City,Smelt NBlast,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,3,48,49,255,587738,26307,-639.1,-721.4,-0.00648,-0.005741
+Bad City,IBeam Steel,Industrial,Steel Plant,Industrial_SteelPlant,Przemyślice,Industrial Manufacturing,2,34,37,255,476095,39657,-710.8,-245.9,-0.002209,-0.006385
+Bad City,Drydemans,Industrial,Food Factory,Industrial_FoodFactory,Przemyślice,Industrial Manufacturing,2,30,35,255,474001,11779,-87.8,-113.1,-0.001016,-0.000789
+Bad City,Velvet Duds,Industrial,Textile From Cotton Factory,Industrial_TextileFromCottonFactory,Przemyślice,Industrial Manufacturing,2,24,25,255,336603,16896,-443.2,-699.8,-0.006287,-0.003982
+Bad City,Onshore,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,38,39,255,91707,21483,-391.0,-731.4,-0.006571,-0.003512
+Bad City,Chemicalore,Industrial,Chemical Factory,Industrial_ChemicalFactory,Przemyślice,Industrial Manufacturing,2,37,38,255,1036483,32156,-526.8,-244.5,-0.002196,-0.004733
+Bad City,Aivatsu,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,3,37,39,255,1180743,16023,-395.8,-623.4,-0.0056,-0.003556
+Bad City,Mattock And Winch,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,31,32,255,277054,38118,-719.8,-630.0,-0.005659,-0.006466
+Bad City,Chipperstein,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,29,31,255,219056,10394,-187.4,-169.8,-0.001526,-0.001683
+Bad City,Carpoco,Industrial,Paper Mill,Industrial_PaperMill,Przemyślice,Industrial Manufacturing,2,23,24,0,135373,7982,-87.0,-217.1,-0.00195,-0.000782
+Bad City,Sneaky Ridge,Industrial,Textile From Livestock Factory,Industrial_TextileFromLivestockFactory,Przemyślice,Industrial Manufacturing,2,40,41,255,599775,17669,-95.3,-177.1,-0.001591,-0.000856
+Bad City,Stefans Stump,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,29,31,255,234175,14582,-523.8,-124.4,-0.001118,-0.004705
+Bad City,Dobbelbock,Industrial,Food Factory,Industrial_FoodFactory,Przemyślice,Industrial Manufacturing,3,28,29,255,887189,11998,-399.5,-663.5,-0.00596,-0.003589
+Bad City,Crapfish Granules,Industrial,Plastics Factory,Industrial_PlasticsFactory,Przemyślice,Industrial Manufacturing,2,39,40,255,468027,17624,-127.8,-113.4,-0.001018,-0.001148
+Bad City,Eino,Industrial,Oil Refinery,Industrial_OilRefinery,Przemyślice,Industrial Manufacturing,2,32,34,255,502633,18359,-392.3,-51.4,-0.000462,-0.003524
+Bad City,Dobbelbock,Industrial,Food Factory,Industrial_FoodFactory,Przemyślice,Industrial Manufacturing,2,31,35,255,703384,12239,-432.3,-51.7,-0.000465,-0.003884
+Bad City,Merinus,Industrial,Machinery Factory,Industrial_MachineryFactory,Przemyślice,Industrial Manufacturing,2,30,31,255,800954,11699,-428.0,-91.7,-0.000824,-0.003845
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,45,47,255,392328,18977,-291.2,-194.6,-0.001748,-0.002616
+Bad City,Rust Bucket,Industrial,Metal Smelter,Industrial_MetalSmelter,Przemyślice,Industrial Manufacturing,2,29,31,255,278802,10329,-332.0,-91.0,-0.000817,-0.002982
+Bad City,Bumberfuel,Industrial,Oil Refinery,Industrial_OilRefinery,Przemyślice,Industrial Manufacturing,2,42,44,255,792885,17595,-328.3,-50.9,-0.000457,-0.002949
+Bad City,Oceanport Pharmaceuticals,Industrial,Pharmaceuticals Factory,Industrial_PharmaceuticalsFactory,Przemyślice,Industrial Manufacturing,2,19,20,255,481238,11293,-387.0,-219.4,-0.001971,-0.003477
+Bad City,Tiny Toys,Industrial,Electronics Factory,Industrial_ElectronicsFactory,Przemyślice,Industrial Manufacturing,3,43,45,255,1665918,24297,-467.6,-652.0,-0.005857,-0.004201
+Bad City,Peacent Planks,Industrial,Saw Mill,Industrial_SawMill,Przemyślice,Industrial Manufacturing,2,30,31,255,257919,11676,-484.0,-92.1,-0.000828,-0.004348
+Bad City,Mason Jar,Extractor,Mineral Plant,Industrial_MineralPlant,Przemyślice,Industrial Manufacturing,3,45,47,255,642889,20177,-492.3,-572.2,-0.00514,-0.004422
+Bad City,Denny Denims,Warehouse,Warehouse Textiles,Industrial_WarehouseTextiles,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-523.1,-204.4,-0.001836,-0.004699
+Bad City,Scandic Baron,Warehouse,Warehouse Electronics,Industrial_WarehouseElectronics,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-117.9,-404.7,-0.003635,-0.001059
+Bad City,Scandic Baron,Warehouse,Warehouse Plastics,Industrial_WarehousePlastics,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-183.9,-418.1,-0.003756,-0.001652
+Bad City,Yaxu,Warehouse,Warehouse Beverages,Industrial_WarehouseBeverages,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-175.4,-482.1,-0.004331,-0.001576
+Bad City,Smelt NBlast,Warehouse,Warehouse Metals,Industrial_WarehouseMetals,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-125.2,-495.0,-0.004447,-0.001125
+Bad City,North Notes Paper,Warehouse,Warehouse Wood,Industrial_WarehouseWood,Przemyślice,Industrial Storage Forestry,1,0,0,0,0,0,-68.7,-558.6,-0.005018,-0.000617
+Bad City,Pharmacy,Warehouse,Warehouse Pharmaceuticals,Industrial_WarehousePharmaceuticals,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-568.4,-44.8,-0.000402,-0.005106
+Bad City,Grind ARock,Warehouse,Warehouse Ore,Industrial_WarehouseOre,Przemyślice,Industrial Storage Ore,1,0,0,0,0,0,-64.9,-538.6,-0.004838,-0.000583
+Bad City,Full Skill Grinding,Warehouse,Warehouse Coal,Industrial_WarehouseCoal,Przemyślice,Industrial Storage Ore,1,0,0,0,0,0,-124.8,-543.0,-0.004878,-0.001121
+Bad City,Saw Ed,Warehouse,Warehouse Timber,Industrial_WarehouseTimber,Przemyślice,Industrial Storage Forestry,1,0,0,0,0,0,-580.1,-76.9,-0.000691,-0.005211
+Bad City,Wolmsburys,Warehouse,Warehouse Food,Industrial_WarehouseFood,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-275.5,-674.5,-0.006059,-0.002475
+Bad City,Flowers Flours,Warehouse,Warehouse Grain,Industrial_WarehouseGrain,Przemyślice,Industrial Storage Agriculture,1,0,0,0,0,0,-723.1,-726.0,-0.006522,-0.006496
+Bad City,Onshore,Warehouse,Warehouse Minerals,Industrial_WarehouseMinerals,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-61.1,-502.6,-0.004515,-0.000549
+Bad City,Common Groceries,Warehouse,Warehouse Convenience Food,Industrial_WarehouseConvenienceFood,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-483.1,-208.1,-0.00187,-0.00434
+Bad City,Lifebelt Petroleum,Warehouse,Warehouse Oil,Industrial_WarehouseOil,Przemyślice,Industrial Storage Oil,1,0,0,0,0,0,-195.5,-628.2,-0.005643,-0.001756
+Bad City,Pellemy Chemicals,Warehouse,Warehouse Chemicals,Industrial_WarehouseChemicals,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-486.8,-244.2,-0.002193,-0.004373
+Bad City,Bumberfuel,Warehouse,Warehouse Petrochemicals,Industrial_WarehousePetrochemicals,Przemyślice,Industrial Storage Oil,1,0,0,0,0,0,-267.2,-706.5,-0.006346,-0.002401
+Bad City,IBeam Steel,Warehouse,Warehouse Steel,Industrial_WarehouseSteel,Przemyślice,Industrial Manufacturing Warehouse,1,0,0,0,0,0,-121.7,-424.7,-0.003815,-0.001094
+Bad City,Full Of Foods,Warehouse,Warehouse Vegetables,Industrial_WarehouseVegetables,Przemyślice,Industrial Storage Agriculture,1,0,0,0,0,0,-69.4,-470.6,-0.004228,-0.000623
+Bad City,Drydemans,Warehouse,Warehouse Livestock,Industrial_WarehouseLivestock,Przemyślice,Industrial Storage Agriculture,1,0,0,0,0,0,-122.1,-384.7,-0.003456,-0.001096
+Bad City,Wolmsburys,Warehouse,Warehouse Grain,Industrial_WarehouseGrain,Przemyślice,Industrial Storage Agriculture,1,0,0,0,0,0,-331.8,-122.9,-0.001104,-0.00298
+Bad City,Grind ARock,Warehouse,Warehouse Stone,Industrial_WarehouseStone,Przemyślice,Industrial Storage Ore,1,0,0,0,0,0,-267.8,-634.5,-0.0057,-0.002406
+Bad City,Grind ARock,Extractor,Stone Quarry,Industrial_StoneQuarry,Przemyślice,Industrial Ore Hub02 L,3,12,12,255,1356063,8351,-588.5,-549.0,-0.004931,-0.005287
+Bad City,North Notes Paper,Extractor,Forestry Extractor,Industrial_ForestryExtractor,Przemyślice,Industrial Forestry Hub02 L,2,9,9,255,512052,1638,49.7,-312.0,-0.002803,0.000447
+Bad City,Grun Kuh,Extractor,Livestock Extractor,Industrial_LivestockExtractor,Przemyślice,Industrial Agriculture Hub02 L,3,6,6,255,754385,3906,-712.8,-1021.9,-0.00918,-0.006403
+Bad City,Wolmsburys,Extractor,Grain Extractor,Industrial_GrainExtractor,,Industrial Agriculture Hub03 L,3,7,7,255,802082,2267,-121.0,-1727.1,-0.015514,-0.001087
+Bad City,Fries,Extractor,Vegetable Extractor,Industrial_VegetableExtractor,,Industrial Agriculture Hub01 L,3,6,6,255,722418,2136,-145.0,-1935.1,-0.017383,-0.001303
