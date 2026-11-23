@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru Dataset",
+  "description": "Canonical output of the processing stage: one captured map as a GeoJSON FeatureCollection with Koru metadata in the 'koru' foreign member. Readable by any GeoJSON tool.",
+  "type": "object",
+  "required": ["type", "koru", "features"],
+  "properties": {
+    "type": { "const": "FeatureCollection" },
+    "koru": { "$ref": "#/$defs/DatasetMetadata" },
+    "features": {
+      "type": "array",
+      "items": { "$ref": "feature.schema.json" }
+    }
+  },
+  "$defs": {
+    "DatasetMetadata": {
+      "type": "object",
+      "required": ["koru_version", "id", "source", "crs", "bbox", "generated_at", "generator"],
+      "additionalProperties": false,
+      "properties": {
+        "koru_version": { "$ref": "common.schema.json#/$defs/semver" },
+        "id": {
+          "$ref": "common.schema.json#/$defs/slug",
+          "description": "Dataset identifier, equal to the capture_id of the raw manifest it was built from."
+        },
+        "source": { "$ref": "#/$defs/DatasetSource" },
+        "crs": { "$ref": "crs.schema.json" },
+        "bbox": {
+          "description": "Extent of all feature coordinates, null for an empty dataset.",
+          "oneOf": [
+            { "$ref": "common.schema.json#/$defs/bbox" },
+            { "type": "null" }
+          ]
+        },
+        "generated_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+        "generator": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Module (and version) that produced the dataset, e.g. 'processing@0.1.0'."
+        },
+        "assets": {
+          "type": "array",
+          "description": "Non-vector companions such as heightmaps or textures. Rasters are referenced, not embedded.",
+          "items": { "$ref": "#/$defs/Asset" }
+        }
+      }
+    },
+    "DatasetSource": {
+      "type": "object",
+      "required": ["kind", "module", "provider", "retrieved_at", "license"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": { "$ref": "common.schema.json#/$defs/sourceKind" },
+        "module": { "$ref": "common.schema.json#/$defs/slug" },
+        "provider": { "$ref": "common.schema.json#/$defs/slug" },
+        "name": { "type": "string" },
+        "license": {
+          "type": "string",
+          "minLength": 1,
+          "description": "SPDX identifier when one exists (e.g. 'ODbL-1.0'), otherwise a short description of the terms."
+        },
+        "attribution": { "type": "string" },
+        "retrieved_at": { "$ref": "common.schema.json#/$defs/timestamp" }
+      }
+    },
+    "Asset": {
+      "type": "object",
+      "required": ["path", "media_type", "role"],
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "$ref": "common.schema.json#/$defs/relativePath",
+          "description": "Path relative to the directory holding the dataset file."
+        },
+        "media_type": { "type": "string", "minLength": 1 },
+        "role": { "enum": ["heightmap", "texture", "other"] }
+      }
+    }
+  }
+}

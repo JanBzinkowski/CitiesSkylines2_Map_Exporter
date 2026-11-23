@@ -27,8 +27,9 @@ Projekt inżynierii wstecznej formatu zapisu gry **Cities: Skylines II (`.cok`)*
 | Plik / Folder | Opis |
 | :--- | :--- |
 | **`cs2save.py`** | Rdzeń dekodera plików `.cok` (ZIP + Zstd + ECS + systemy). |
-| **`cok_to_html.py`** | Generator pojedynczego pliku HTML (i opcjonalnie CSV biznesów) z pliku `.cok`. |
-| **`exporter/`** | Samodzielny podprojekt do masowego eksportu save'ów i zbierania ich z Reddita — zobacz **[exporter/README.md](exporter/README.md)**. |
+| **`cok_to_html.py`** | Generator pojedynczego pliku HTML, Koru GeoJSON i CSV biznesów z pliku `.cok`. |
+| **`exporter/`** | Samodzielny podprojekt do masowego eksportu save'ów (HTML, GeoJSON, CSV) i zbierania ich z Reddita — zobacz **[exporter/README.md](exporter/README.md)**. |
+| **`exporter/exported_geojson/`** | Wygenerowane zbiory danych GeoJSON zgodne z kontraktami Koru (`dataset.schema.json`). |
 | **`ozarow_z_cok.html`** | Przykładowa wygenerowana mapa Ożarowa Mazowieckiego bezpośrednio z `.cok`. |
 | **`mapa_ozarow_cs2.html`** / `prepare_map_data.py` | Wcześniejsza mapa referencyjna zbudowana z eksportu GIS moda **Carto** (użyta jako *Ground Truth* do weryfikacji). |
 | **`AGENTS.md`** | Dokumentacja techniczna formatu binarnego `.cok` oraz rejestr napotkanych pułapek. |

@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru Raw Manifest",
+  "description": "Written by every source module as manifest.json next to the artifacts it fetched. It is the output contract of the source stage and the input contract of the processing stage.",
+  "type": "object",
+  "required": ["koru_version", "capture_id", "module", "kind", "provider", "retrieved_at", "license", "offline", "crs", "artifacts"],
+  "additionalProperties": false,
+  "properties": {
+    "koru_version": { "$ref": "common.schema.json#/$defs/semver" },
+    "capture_id": {
+      "$ref": "common.schema.json#/$defs/slug",
+      "description": "Identifier of this capture. Becomes the dataset id after processing."
+    },
+    "module": { "$ref": "common.schema.json#/$defs/slug" },
+    "kind": { "$ref": "common.schema.json#/$defs/sourceKind" },
+    "provider": {
+      "$ref": "common.schema.json#/$defs/slug",
+      "description": "Upstream the data came from, e.g. 'openstreetmap' or the game's slug."
+    },
+    "name": { "type": "string" },
+    "retrieved_at": { "$ref": "common.schema.json#/$defs/timestamp" },
+    "license": { "type": "string", "minLength": 1 },
+    "attribution": { "type": "string" },
+    "offline": {
+      "type": "boolean",
+      "description": "True when the capture was replayed from recorded fixtures (KORU_OFFLINE=1) instead of fetched live."
+    },
+    "params": {
+      "type": "object",
+      "description": "Request parameters that produced this capture (bbox, region, map or save name, ...)."
+    },
+    "crs": {
+      "$ref": "crs.schema.json",
+      "description": "CRS of the raw artifacts as reported by the source."
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/Artifact" }
+    }
+  },
+  "$defs": {
+    "Artifact": {
+      "type": "object",
+      "required": ["path", "media_type", "sha256", "bytes", "role"],
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "$ref": "common.schema.json#/$defs/relativePath",
+          "description": "Path relative to the directory holding manifest.json."
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1,
+          "examples": ["application/geo+json", "application/vnd.osm+xml", "image/x-portable-graymap"]
+        },
+        "sha256": { "$ref": "common.schema.json#/$defs/sha256" },
+        "bytes": { "type": "integer", "minimum": 0 },
+        "role": {
+          "description": "How processing should treat the artifact.",
+          "enum": ["vector", "heightmap", "texture", "metadata", "other"]
+        }
+      }
+    }
+  }
+}

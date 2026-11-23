@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru Feature",
+  "description": "A single normalized and classified map object. GeoJSON Feature with a fixed, Koru-defined 'properties' shape.",
+  "type": "object",
+  "required": ["type", "id", "geometry", "properties"],
+  "properties": {
+    "type": { "const": "Feature" },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique within the dataset."
+    },
+    "geometry": { "$ref": "geometry.schema.json" },
+    "properties": {
+      "type": "object",
+      "required": ["class", "source_ref"],
+      "additionalProperties": false,
+      "properties": {
+        "class": { "$ref": "#/$defs/FeatureClass" },
+        "subclass": {
+          "type": ["string", "null"],
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "description": "Finer classification within the class, snake_case (e.g. 'motorway', 'residential', 'river')."
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "Human-readable name from the source, if any."
+        },
+        "source_ref": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Stable reference to the original object: '<provider>:<native id>' (e.g. 'openstreetmap:way/123')."
+        },
+        "attributes": {
+          "type": "object",
+          "description": "Class-specific normalized attributes with snake_case keys (e.g. lanes, height_m, zone_density).",
+          "propertyNames": { "pattern": "^[a-z][a-z0-9_]*$" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "FeatureClass": {
+      "title": "Feature class",
+      "description": "Top-level Koru taxonomy. Owned by the generalization team; changes follow the contract-change process (docs/data-model.md).",
+      "oneOf": [
+        { "const": "road", "description": "Road and street network for vehicles or pedestrians, including paths." },
+        { "const": "railway", "description": "Rail, tram and metro lines." },
+        { "const": "building", "description": "Building footprints." },
+        { "const": "water", "description": "Water bodies and waterways: sea, lakes, rivers, canals." },
+        { "const": "terrain", "description": "Landforms and elevation features: contours, cliffs, peaks." },
+        { "const": "landuse", "description": "Land use and urban planning zones: residential, commercial, industrial, agricultural." },
+        { "const": "vegetation", "description": "Forests, parks, grassland and other vegetated areas." },
+        { "const": "poi", "description": "Points of interest: services, landmarks, amenities." },
+        { "const": "boundary", "description": "Administrative boundaries and map edges." },
+        { "const": "unclassified", "description": "Normalized but not yet classified. Valid output that consumers should not rely on." }
+      ]
+    }
+  }
+}

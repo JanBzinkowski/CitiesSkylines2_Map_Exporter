@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru Module Manifest",
+  "description": "modules/<name>/module.yaml. Lets tooling and CI discover modules without knowing their stack.",
+  "type": "object",
+  "required": ["name", "stage", "owner", "description", "status", "platforms"],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "Must equal the module directory name. Images are published as koru-<name>."
+    },
+    "stage": {
+      "enum": ["source", "processing", "api"],
+      "description": "Pipeline stage; selects which contract the module must satisfy (docs/module-contract.md)."
+    },
+    "kind": { "$ref": "common.schema.json#/$defs/sourceKind" },
+    "owner": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Owning team. Keep in sync with .github/CODEOWNERS."
+    },
+    "description": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["placeholder", "experimental", "stable"],
+      "description": "placeholder = null implementation that only satisfies the contract."
+    },
+    "stack": {
+      "type": "string",
+      "description": "Informational: language/runtime used inside the image."
+    },
+    "platforms": {
+      "type": "array",
+      "description": "Platforms the published image is built for.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["linux/amd64", "linux/arm64"] }
+    }
+  },
+  "if": { "properties": { "stage": { "const": "source" } } },
+  "then": { "required": ["kind"] },
+  "else": { "not": { "required": ["kind"] } }
+}

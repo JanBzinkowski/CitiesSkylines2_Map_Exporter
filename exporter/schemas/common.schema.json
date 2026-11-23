@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru common definitions",
+  "description": "Shared building blocks referenced by the other Koru schemas.",
+  "$defs": {
+    "semver": {
+      "type": "string",
+      "description": "Semantic version of the Koru contracts the document was produced against (contracts/VERSION).",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-[0-9A-Za-z.-]+)?$",
+      "examples": ["0.1.0"]
+    },
+    "slug": {
+      "type": "string",
+      "description": "Lowercase identifier: letters, digits, dots, dashes and underscores.",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,127}$",
+      "examples": ["openstreetmap", "source-geo", "osm-krakow-old-town"]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "RFC 3339 timestamp, UTC recommended.",
+      "examples": ["2026-11-09T12:00:00Z"]
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "Lowercase hex SHA-256 digest."
+    },
+    "relativePath": {
+      "type": "string",
+      "description": "POSIX path relative to the document's directory. Absolute paths and '..' segments are forbidden.",
+      "pattern": "^(?!/)(?!.*(^|/)\\.\\.(/|$))[A-Za-z0-9._/-]+$",
+      "examples": ["artifacts/osm-sample.geojson"]
+    },
+    "sourceKind": {
+      "description": "Origin of the map data.",
+      "oneOf": [
+        { "const": "geo", "description": "Real-world geography (GIS, OpenStreetMap, national registries, ...)." },
+        { "const": "game", "description": "Maps from strategy and simulation games (city builders, 4X, ...)." }
+      ]
+    },
+    "bbox": {
+      "type": "array",
+      "description": "2D bounding box [min_x, min_y, max_x, max_y] in the dataset CRS.",
+      "items": { "type": "number" },
+      "minItems": 4,
+      "maxItems": 4
+    }
+  }
+}

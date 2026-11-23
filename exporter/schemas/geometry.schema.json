@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru Geometry",
+  "description": "GeoJSON (RFC 7946) geometry. Coordinates are expressed in the dataset CRS, which for game maps is not WGS 84. GeometryCollection is intentionally not supported.",
+  "oneOf": [
+    { "$ref": "#/$defs/Point" },
+    { "$ref": "#/$defs/MultiPoint" },
+    { "$ref": "#/$defs/LineString" },
+    { "$ref": "#/$defs/MultiLineString" },
+    { "$ref": "#/$defs/Polygon" },
+    { "$ref": "#/$defs/MultiPolygon" }
+  ],
+  "$defs": {
+    "Position": {
+      "type": "array",
+      "description": "[x, y] or [x, y, z]. z is elevation in CRS units (meters for EPSG CRSs).",
+      "items": { "type": "number" },
+      "minItems": 2,
+      "maxItems": 3
+    },
+    "LineCoordinates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Position" },
+      "minItems": 2
+    },
+    "LinearRing": {
+      "type": "array",
+      "description": "Closed ring: first and last positions are equal (not enforced by the schema).",
+      "items": { "$ref": "#/$defs/Position" },
+      "minItems": 4
+    },
+    "PolygonCoordinates": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/LinearRing" },
+      "minItems": 1
+    },
+    "Point": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "Point" },
+        "coordinates": { "$ref": "#/$defs/Position" }
+      }
+    },
+    "MultiPoint": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "MultiPoint" },
+        "coordinates": { "type": "array", "items": { "$ref": "#/$defs/Position" } }
+      }
+    },
+    "LineString": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "LineString" },
+        "coordinates": { "$ref": "#/$defs/LineCoordinates" }
+      }
+    },
+    "MultiLineString": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "MultiLineString" },
+        "coordinates": { "type": "array", "items": { "$ref": "#/$defs/LineCoordinates" } }
+      }
+    },
+    "Polygon": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "Polygon" },
+        "coordinates": { "$ref": "#/$defs/PolygonCoordinates" }
+      }
+    },
+    "MultiPolygon": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "MultiPolygon" },
+        "coordinates": { "type": "array", "items": { "$ref": "#/$defs/PolygonCoordinates" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Koru CRS",
+  "description": "Coordinate reference system of a dataset. Real-world maps reference an EPSG code; game maps use a local, engine-specific coordinate space described by its unit, scale and axis orientation.",
+  "oneOf": [
+    {
+      "title": "EPSG CRS",
+      "type": "object",
+      "required": ["type", "epsg"],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": ["geographic", "projected"],
+          "description": "geographic = lon/lat degrees (e.g. EPSG:4326), projected = planar units (e.g. EPSG:2180)."
+        },
+        "epsg": {
+          "type": "integer",
+          "minimum": 1024,
+          "maximum": 32767,
+          "description": "EPSG code."
+        }
+      }
+    },
+    {
+      "title": "Local (game) CRS",
+      "type": "object",
+      "required": ["type", "unit", "axis"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "local" },
+        "unit": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Native unit of the coordinate space, e.g. 'meter', 'tile', 'cell', 'game-unit'.",
+          "examples": ["cell"]
+        },
+        "meters_per_unit": {
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0,
+          "description": "Scale to real-world meters when the game defines one, otherwise null."
+        },
+        "origin": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 3,
+          "description": "Location of the coordinate origin, in native units, relative to the map's top-left corner."
+        },
+        "axis": {
+          "enum": ["x-east-y-north", "x-east-y-south"],
+          "description": "Orientation of canonical x/y after normalization. Engines with a vertical y axis (x/z ground plane) must be mapped to x/y by processing."
+        }
+      }
+    }
+  ]
+}

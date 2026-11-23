@@ -1,8 +1,12 @@
 # CS2 Save Exporter & Reddit Collector (`exporter/`)
 
-Samodzielne narzędzie wsadowe do masowego konwertowania plików zapisu **Cities: Skylines II (`.cok`)** na interaktywne mapy HTML (w stylu Google Maps) oraz pliki CSV z lokalizacją i parametrami wszystkich biznesów w mieście — wraz z opcjonalnym kolektorem save'ów z `r/CitiesSkylines2`.
+Samodzielne narzędzie wsadowe do masowego konwertowania plików zapisu **Cities: Skylines II (`.cok`)** na:
+- **Interaktywne mapy HTML** (w stylu Google Maps),
+- **Standaryzowane zbiory danych GeoJSON** zgodne w 100% z kontraktami i schematami JSON projektu **Koru** ([Tensor-PK/Koru](https://github.com/Tensor-PK/Koru/tree/main/contracts/schemas)),
+- **Pliki CSV** z lokalizacją i parametrami wszystkich firm/biznesów w mieście,
+- Wraz z opcjonalnym kolektorem save'ów z `r/CitiesSkylines2`.
 
-Folder `exporter/` zawiera wszystkie potrzebne moduły (`cs2save.py`, `cok_to_html.py`, `lib/`) i można go przenieść na dowolny dysk.
+Folder `exporter/` zawiera wszystkie potrzebne moduły (`cs2save.py`, `cok_to_html.py`, `schemas/`, `lib/`) i można go przenieść na dowolny dysk.
 
 ---
 
@@ -10,18 +14,20 @@ Folder `exporter/` zawiera wszystkie potrzebne moduły (`cs2save.py`, `cok_to_ht
 
 ```text
 exporter/
-├── exporter.py                  # główny eksporter wsadowy (.cok -> .html + _biznesy.csv)
+├── exporter.py                  # główny eksporter wsadowy (.cok -> .html, .geojson, _biznesy.csv)
 ├── run_exporter.bat             # skrót uruchamiający exporter.py (Windows)
 ├── reddit_scraper.py            # kolektor save'ów z r/CitiesSkylines2 (oficjalne Reddit OAuth2 API)
 ├── run_scraper.bat              # skrót uruchamiający reddit_scraper.py na 4h
 ├── reddit_config.example.json   # szablon konfiguracji kluczy Reddit API
 ├── cs2save.py                   # dekoder binarnego formatu .cok
-├── cok_to_html.py               # silnik eksportu mapy HTML i tabeli biznesów CSV
+├── cok_to_html.py               # silnik ekstrakcji, eksportu HTML, GeoJSON i CSV
+├── schemas/                     # lokalne schematy JSON kontraktów Koru (dataset, feature, crs, geometry, common)
 ├── lib/                         # lokalny Leaflet CSS/JS (mapy działają 100% offline)
 │
 ├── to_export/                   # <- TU WRZUCASZ nowe pliki .cok do przetworzenia
 ├── already_exported/            # <- tu automatycznie trafiają poprawnie wyeksportowane .cok
 ├── exported_htmls/              # <- tu powstają gotowe mapy <Miasto>.html i <Miasto>_biznesy.csv
+├── exported_geojson/            # <- tu powstają zbiory danych <Miasto>.geojson (kontrakt Koru)
 └── export_error/                # <- tu trafiają uszkodzone/błędne .cok + raport "export error.txt"
 ```
 
@@ -38,16 +44,46 @@ python exporter.py
 lub kliknij dwukrotnie `run_exporter.bat`.
 
 ### Co się wydarzy dla każdego pliku `.cok`
-1. Powstaje samodzielna, interaktywna mapa `exported_htmls/<Nazwa>.html` (otwierana lokalnie w przeglądarce bez CORS).
-2. Powstaje tabela wszystkich aktywnych firm `exported_htmls/<Nazwa>_biznesy.csv` (kodowanie UTF-8 z BOM — polskie znaki działają od razu w Excelu i `pandas`).
-3. Plik źródłowy `.cok` zostaje przeniesiony z `to_export/` do `already_exported/`.
-4. **W razie błędu**: niedokończony `.html` jest usuwany, problematyczny `.cok` trafia do `export_error/`, a dokładny opis przyczyny i traceback zapisują się w `export_error/export error.txt`. Eksporter przechodzi dalej do kolejnego pliku.
+1. Powstaje zbiór danych GeoJSON `exported_geojson/<Nazwa>.geojson` zgodny w 100% ze schematem `dataset.schema.json` Koru (gotowy do bezpośredniego zasilania potoku Koru).
+2. Powstaje samodzielna, interaktywna mapa `exported_htmls/<Nazwa>.html` (otwierana lokalnie w przeglądarce bez CORS).
+3. Powstaje tabela wszystkich aktywnych firm `exported_htmls/<Nazwa>_biznesy.csv` (kodowanie UTF-8 z BOM — polskie znaki działają od razu w Excelu i `pandas`).
+4. Plik źródłowy `.cok` zostaje przeniesiony z `to_export/` do `already_exported/`.
+5. **W razie błędu**: problematyczny `.cok` trafia do `export_error/`, a dokładny opis przyczyny i traceback zapisują się w `export_error/export error.txt`. Eksporter przechodzi dalej do kolejnego pliku.
 
-### Dodatkowe flagi
+### Opcje uruchamiania i wyłączania formatów
 ```powershell
-python exporter.py --regen-all   # przelicza na nowo wszystkie save'y z to_export/ ORAZ already_exported/
-python exporter.py --no-terrain  # pomija generowanie PNG terenu/wody (eksport trwa ~3x krócej)
+# Wyłączenie generowania map HTML (szybszy bieg, tylko GeoJSON i CSV):
+python exporter.py --no-html          # lub --nohtml
+
+# Wyłączenie generowania tabel CSV:
+python exporter.py --no-csv           # lub --nocsv
+
+# Wyłączenie generowania GeoJSON:
+python exporter.py --no-geojson       # lub --nogeojson
+
+# Generowanie tylko GeoJSON (bez HTML i bez CSV):
+python exporter.py --no-html --no-csv
+
+# Układ współrzędnych w GeoJSON:
+python exporter.py --crs geographic   # (domyślny) WGS84 EPSG:4326
+python exporter.py --crs local        # lokalny układ metryczny gry CS2 (metry, x-east-y-north)
+
+# Przeliczenie ponownie save'ów już znajdujących się w already_exported/:
+python exporter.py --regen-all
+
+# Pominięcie generowania podkładu PNG terenu/wody dla map HTML (szybsze):
+python exporter.py --no-terrain
 ```
+
+---
+
+## 2. Eksport do Koru GeoJSON (`exported_geojson/`)
+
+Generowany plik `.geojson` to kanoniczny GeoJSON FeatureCollection zgodny ze specyfikacją kontraktów Koru (`contracts/schemas`):
+- `dataset.schema.json`: zawiera metadane w sekcji `koru` (`koru_version: "0.1.0"`, `id`, `source`, `crs`, `bbox`, `generated_at`, `generator`).
+- `feature.schema.json`: każdy obiekt mapy posiada ściśle określoną taksonomię `class` (`road`, `railway`, `building`, `water`, `boundary`, `poi`, `unclassified`), `subclass`, unikalne `id`, `source_ref` oraz znormalizowane `attributes` (tylko klucze `snake_case`).
+- `geometry.schema.json`: pełne wsparcie dla `LineString` (drogi, tory, trasy komunikacji miejskiej, media), `Polygon` (obrysy budynków, dzielnice) oraz `Point` (usługi POI, przystanki, przedsiębiorstwa).
+- Automatyczna weryfikacja schematu: każdorazowo podczas eksportu następuje walidacja poprawności danych za pomocą `jsonschema` względem definicji w `schemas/dataset.schema.json`.
 
 ---
 
